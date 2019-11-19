@@ -1,35 +1,68 @@
 {
-    "NAME": "Izena",
-    "PASSWORD": "Pasahitza",
-    "EMAIL": "Email Helbidea",
-    "LOGIN": "Saioa Hasi",
-    "SIGNUP": "Izena Eman",
-    "TAB1_TITLE": "Artikuluak",
-    "TAB2_TITLE": "Bilatu",
-    "TAB3_TITLE": "Xehetasunak",
-    "MAP_TITLE": "Mapa",
-    "TUTORIAL_SLIDE1_TITLE": "Ongi etorri Ionic Super Starter-era",
-    "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> hasierako txantiloi bat da, 'page' askorekin eta ereduak",
-    "TUTORIAL_SLIDE2_TITLE": "Nola erabili Super Starter",
-    "TUTORIAL_SLIDE2_DESCRIPTION": "Sortu gustatzen zaizkizun orrialdeak eta ezabatu besteak. Adibidez: login  signup, tabs eta tutorialeak.",
-    "TUTORIAL_SLIDE3_TITLE": "Ikasten",
-    "TUTORIAL_SLIDE3_DESCRIPTION": "Laguntzarik nahi? irakurri README,Super Starter-ren tutorial osoa daukazu",
-    "SETTINGS_TITLE": "Xehetasunak",
-    "SETTINGS_OPTION1": "1 Aukera",
-    "SETTINGS_OPTION2": "2 Aukera",
-    "SETTINGS_OPTION3": "3 Aukera",
-    "SETTINGS_OPTION4": "4 Aukera",
-    "SETTINGS_PAGE_PROFILE": "Zure datual editatu",
-    "WELCOME_TITLE": "Ongi Etorri",
-    "LOGIN_TITLE": "Sesioa Hasi",
-    "LOGIN_ERROR": "Arazoa sesioa hasteko. Mesedez,sahiatu berriz zure datuak idazten.",
-    "LOGIN_BUTTON": "Sesioa Hasi",
-    "SIGNUP_TITLE": "Izena eman",
-    "SIGNUP_ERROR": "Arazoa kontua sortzen.or, Mesedez,sahiatu berriz zure datuak idazten.",
-    "SIGNUP_BUTTON": "Izena Eman",
-    "LIST_MASTER_TITLE": "Artikuluak",
-    "ITEM_CREATE_TITLE": "Artikulu berria",
-    "ITEM_CREATE_CHOOSE_IMAGE": "Argazkia sortu",
-    "CARDS_TITLE": "Sozial",
-    "SEARCH_TITLE": "Bilatu"
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
+
+  "TAB1_TITLE": "Items",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
+
+  "MAP_TITLE": "Map",
+
+  "TUTORIAL_SKIP_BUTTON": "Skip",
+  "TUTORIAL_CONTINUE_BUTTON": "Continue",
+
+  "TUTORIAL_SLIDE1_TITLE": "Welcome to Memorium",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Memorium APP</b> is a fully-functional app for elderly people to improve their capacities.",
+
+  "TUTORIAL_SLIDE2_TITLE": "How to use Memorium",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "After Login or Register, select type of game you want to play. Follow instructions to complete successfully the game, and try to beat your best!",
+
+  "TUTORIAL_SLIDE3_TITLE": "Track your results",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Records of each game are saved and can be checked any time, and listed by date!",
+
+  "TUTORIAL_SLIDE4_TITLE": "Ready to Play?",
+
+  "WELCOME_INTRO": "The starting point for your next great Ionic app",
+
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
+
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
+
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
+
+  "WELCOME_TITLE": "Welcome",
+
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "LIST_MASTER_TITLE": "Items",
+
+  "ITEM_CREATE_TITLE": "New Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
+
+  "ITEM_NAME_PLACEHOLDER": "Name",
+  "ITEM_ABOUT_PLACEHOLDER": "About",
+
+  "DONE_BUTTON": "Done",
+  "CANCEL_BUTTON": "Cancel",
+  "DELETE_BUTTON": "Delete",
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search the items list, e.g. \"Donald Duck\""
 }

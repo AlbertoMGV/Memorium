@@ -4,9 +4,11 @@
     <ion-title>{{ 'LIST_MASTER_TITLE' | translate }}</ion-title>
 
     <ion-buttons end>
+      <!--
       <button ion-button icon-only (click)="addItem()">
         <ion-icon name="add"></ion-icon>
       </button>
+    -->
     </ion-buttons>
   </ion-navbar>
 
@@ -15,21 +17,66 @@
 <ion-content>
 
   <ion-list>
-    <ion-item-sliding *ngFor="let item of currentItems">
-      <button ion-item (click)="openItem(item)">
-        <ion-avatar item-start>
-          <img [src]="item.profilePic" />
-        </ion-avatar>
-        <h2>{{item.name}}</h2>
-        <p>{{item.about}}</p>
-        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
-      </button>
 
-      <ion-item-options>
-        <button ion-button color="danger" (click)="deleteItem(item)">
-          {{ 'DELETE_BUTTON' | translate }}
-        </button>
-      </ion-item-options>
+    <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>{{ 'game1' | translate }}</h2>
+        <p>{{ 'game1_info' | translate }}</p>
+      </button>
     </ion-item-sliding>
+
+    <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>{{ 'game2' | translate }}</h2>
+        <p>{{ 'game2_info' | translate }}</p>
+      </button>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>{{ 'game3' | translate }}</h2>
+        <p>{{ 'game3_info' | translate }}</p>
+      </button>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>{{ 'game4' | translate }}</h2>
+        <p>{{ 'game4_info' | translate }}</p>
+      </button>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>{{ 'game5' | translate }}</h2>
+        <p>{{ 'game5_info' | translate }}</p>
+      </button>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>{{ 'game6' | translate }}</h2>
+        <p>{{ 'game6_info' | translate }}</p>
+      </button>
+    </ion-item-sliding>
+
   </ion-list>
 </ion-content>
