@@ -1,0 +1,7 @@
+{
+  "name": "MemoriumAPP",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
