@@ -8,38 +8,48 @@
 
 <ion-content>
 
-  <form [formGroup]="form" *ngIf="settingsReady">
-    <ion-list *ngIf="page == 'main'">
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION1' | translate }}</ion-label>
-        <ion-toggle formControlName="option1"></ion-toggle>
-      </ion-item>
+  <ion-card>
+    
+    <img src="/assets/img/advance-card-tmntr.jpg"/>
+    
+    <ion-card-content>
+      <h1>Memorium</h1>
+      <p>Aplicación para mejorar cosas en los trapos viejos. Proyecto de la asignatura "como lidiar con los trapos". Realizada con mucho amor y esas cosas. Esto seria una pequeña descripcion o lo que querais.</p>
+      <br>
+      <h2>Autoras</h2>
 
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION2' | translate }}</ion-label>
-        <ion-input formControlName="option2"></ion-input>
-      </ion-item>
-
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION3' | translate }}</ion-label>
-        <ion-select formControlName="option3">
-          <ion-option value="1" checked="true">1</ion-option>
-          <ion-option value="2">2</ion-option>
-          <ion-option value="3">3</ion-option>
-        </ion-select>
-      </ion-item>
-
-      <button ion-item [navPush]="subSettings" [navParams]="profileSettings">
-        {{ 'SETTINGS_PROFILE_BUTTON' | translate }}
+      <ion-item-sliding>
+      <button ion-item>
+        <ion-avatar item-start>
+          <img src="/assets/img/speakers/duck.jpg"/>
+        </ion-avatar>
+        <h2>Natalia Mourelo</h2>
+        <p>natalia.mourelo@opendeusto.es</p>
       </button>
-    </ion-list>
+      </ion-item-sliding>
 
-    <ion-list *ngIf="page == 'profile'">
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION4' | translate }}</ion-label>
-        <ion-input formControlName="option4"></ion-input>
-      </ion-item>
-    </ion-list>
-  </form>
+      <ion-item-sliding>
+        <button ion-item>
+          <ion-avatar item-start>
+            <img src="/assets/img/speakers/elephant.jpg"/>
+          </ion-avatar>
+          <h2>Izaskun Nieva</h2>
+          <p>izaskun.nieva@opendeusto.es</p>
+        </button>
+      </ion-item-sliding>
+
+      <ion-item-sliding>
+        <button ion-item>
+          <ion-avatar item-start>
+            <img src="/assets/img/speakers/bear.jpg"/>
+          </ion-avatar>
+          <h2>Aida Ruano</h2>
+          <p>aida.ruano@opendeusto.es</p>
+        </button>
+      </ion-item-sliding>
+
+    </ion-card-content>
+
+  </ion-card>
 
 </ion-content>

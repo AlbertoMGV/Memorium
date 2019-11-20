@@ -1,36 +1,36 @@
 {
   "BACK_BUTTON_TEXT": "Back",
 
-  "NAME": "Name",
+  "NAME": "Nombre",
   "EMAIL": "Email",
-  "USERNAME": "Username",
-  "PASSWORD": "Password",
-  "LOGIN": "Sign in",
-  "SIGNUP": "Sign up",
+  "USERNAME": "Nombre de Usuario",
+  "PASSWORD": "Contraseña",
+  "LOGIN": "Iniciar sesión",
+  "SIGNUP": "Registrarse",
 
-  "TAB1_TITLE": "Games",
-  "TAB2_TITLE": "Stats",
-  "TAB3_TITLE": "About",
+  "TAB1_TITLE": "Juegos",
+  "TAB2_TITLE": "Resultados",
+  "TAB3_TITLE": "Información",
 
-  "MAP_TITLE": "Map",
+  "MAP_TITLE": "Mapa",
 
-  "TUTORIAL_SKIP_BUTTON": "Skip",
-  "TUTORIAL_CONTINUE_BUTTON": "Lets go!",
+  "TUTORIAL_SKIP_BUTTON": "Saltar",
+  "TUTORIAL_CONTINUE_BUTTON": "Empezar!",
 
-  "TUTORIAL_SLIDE1_TITLE": "Welcome to Memorium",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Memorium APP</b> is a fully-functional app for elderly people to improve their capacities.",
+  "TUTORIAL_SLIDE1_TITLE": "Bienvenido a Memorium",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "La aplicación <b>Memorium</b> es una aplicación horientada al progreso de las capacidades cognitivas de las personas de avanzada edad.",
 
-  "TUTORIAL_SLIDE2_TITLE": "How to use Memorium",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "After Login or Register, select type of game you want to play. Follow instructions to complete successfully the game, and try to beat your best!",
+  "TUTORIAL_SLIDE2_TITLE": "Como funciona Memorium",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Despues de iniciar sesion o registrarse, seleciona una tematica de juego. Sigue las instrucciones para superar el juego y asi superarte a ti mismo.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Track your results",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Records of each game are saved and can be checked any time, and listed by date!",
+  "TUTORIAL_SLIDE3_TITLE": "Seguimiento de resultados",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Los resultados de cada juego son guardados y puedes ver el progreso en el tiempo.",
 
-  "TUTORIAL_SLIDE4_TITLE": "Ready to Play?",
+  "TUTORIAL_SLIDE4_TITLE": "¿Preparado para jugar?",
 
-  "WELCOME_INTRO": "Lets first create an account or sign in!",
+  "WELCOME_INTRO": "Registrate o inicia sesion si ya tienes cuenta!",
 
-  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_TITLE": "Informacion",
   "SETTINGS_OPTION1": "Option 1",
   "SETTINGS_OPTION2": "Option 2",
   "SETTINGS_OPTION3": "Option 3",
@@ -42,12 +42,12 @@
 
   "WELCOME_TITLE": "Welcome",
 
-  "LOGIN_TITLE": "Sign in",
+  "LOGIN_TITLE": "Iniciar sesión",
   "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
-  "LOGIN_BUTTON": "Sign in",
-  "SIGNUP_TITLE": "Sign up",
+  "LOGIN_BUTTON": "Entrar",
+  "SIGNUP_TITLE": "Registrarse",
   "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
-  "SIGNUP_BUTTON": "Sign up",
+  "SIGNUP_BUTTON": "Empezar",
 
   "LIST_MASTER_TITLE": "Games",
 
@@ -63,19 +63,19 @@
 
   "CARDS_TITLE": "Social",
 
-  "SEARCH_TITLE": "Search",
+  "SEARCH_TITLE": "Resultados",
   "SEARCH_PLACEHOLDER": "Search the items list, e.g. \"Donald Duck\"",
 
-  "game1": "Game 1",
-  "game1_info": "This is the Game 1",
-  "game2": "Game 2",
-  "game2_info": "This is the Game 2",
-  "game3": "Game 3",
-  "game3_info": "This is the Game 3",
-  "game4": "Game 4",
-  "game4_info": "This is the Game 4",
-  "game5": "Game 5",
-  "game5_info": "This is the Game 5",
-  "game6": "Game 6",
-  "game6_info": "This is the Game 6"
+  "game1": "Atención",
+  "game1_info": "Practica y mejorea tu actención.",
+  "game2": "Funciones Ejecutivas",
+  "game2_info": "Practica y mejorea tus funciones ejecutivas.",
+  "game3": "Lenguaje",
+  "game3_info": "Practica y mejorea tu lenguaje.",
+  "game4": "Memoria",
+  "game4_info": "Practica y mejorea tu memoria.",
+  "game5": "Percepción",
+  "game5_info": "Practica y mejorea tu percepción.",
+  "game6": "Lectoescritura",
+  "game6_info": "Practica y mejorea tu lectoescritura."
 }
