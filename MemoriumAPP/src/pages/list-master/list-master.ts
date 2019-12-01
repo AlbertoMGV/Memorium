@@ -4,6 +4,13 @@ import { IonicPage, ModalController, NavController } from 'ionic-angular';
 import { Item } from '../../models/item';
 import { Items } from '../../providers';
 
+import { Juego1Page } from '../Juego1/juego1';
+import { Juego2Page } from '../Juego2/juego2';
+import { Juego3Page } from '../Juego3/juego3';
+import { Juego4Page } from '../Juego4/juego4';
+import { Juego5Page } from '../Juego5/juego5';
+import { Juego6Page } from '../Juego6/juego6';
+
 @IonicPage()
 @Component({
   selector: 'page-list-master',
@@ -50,5 +57,9 @@ export class ListMasterPage {
     this.navCtrl.push('ItemDetailPage', {
       item: item
     });
+  }
+
+  goGame(nom) {
+    this.navCtrl.push(nom);
   }
 }
