@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MainPage } from '../';
+
+import { Juego2inPage } from '../juego2in/juego2in';
 /**
  * Generated class for the Juego2Page page.
  *
@@ -22,7 +24,7 @@ export class Juego2Page {
     console.log('ionViewDidLoad Juego2Page');
   }
   goGame() {
-  	this.navCtrl.push(MainPage);
+  	this.navCtrl.push(Juego2inPage);
   }
 
 }
