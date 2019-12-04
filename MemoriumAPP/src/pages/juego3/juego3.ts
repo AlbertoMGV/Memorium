@@ -24,6 +24,6 @@ export class Juego3Page {
     console.log('ionViewDidLoad Juego3Page');
   }
   goGame() {
-  	this.navCtrl.push(Juego3inPage);
+  	this.navCtrl.push('Juego3inPage');
   }
 }

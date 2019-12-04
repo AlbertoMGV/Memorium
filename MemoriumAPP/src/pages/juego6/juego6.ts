@@ -26,7 +26,7 @@ export class Juego6Page {
   }
 
   goGame() {
-  	this.navCtrl.push(Juego6inPage);
+  	this.navCtrl.push('Juego6inPage');
   }
 
 }

@@ -25,7 +25,7 @@ export class Juego5Page {
     console.log('ionViewDidLoad Juego5Page');
   }
   goGame() {
-  	this.navCtrl.push(Juego5inPage);
+  	this.navCtrl.push('Juego5inPage');
   }
 
 }
