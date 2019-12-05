@@ -5,11 +5,42 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>juego2in</ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<ion-title>Funciones ejecutivas</ion-title>
+		 <ion-buttons end>
+	      <button ion-button (click)="back()" color="danger">Salir</button>
+    	</ion-buttons>
+	</ion-navbar>
 </ion-header>
 
 <ion-content padding>
-
+	<ion-slides #slides>
+		<ion-slide>
+			<p>Ordena esta lista que está relacionada con viajar en autobus:</p>
+			<img width="100%" height="100%" src="/assets/img/games/funciones/1.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>Tacha con una "X" el objecto que sobra:</p>
+			<img width="100%" height="100%" src="/assets/img/games/funciones/2.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>Tacha con una "X" el palabra que sobra:</p>
+			<img width="100%" height="100%" src="/assets/img/games/funciones/3.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="terminar()" block>Terminar</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+	</ion-slides>
 </ion-content>

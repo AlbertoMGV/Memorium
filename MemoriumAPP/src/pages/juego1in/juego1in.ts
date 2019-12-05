@@ -23,7 +23,7 @@ export class Juego1inPage {
 
   @ViewChild('slides') slides: Slides;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public alertController: AlertController, public toastCtrl: ToastController,) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public alertController: AlertController, public toastCtrl: ToastController) {
   }
 
   ionViewDidLoad() {
