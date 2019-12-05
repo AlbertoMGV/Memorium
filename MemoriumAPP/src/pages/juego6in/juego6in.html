@@ -1,15 +1,71 @@
 <!--
-  Generated template for the Juego6inPage page.
+Generated template for the Juego1inPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>juego6in</ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<ion-title>Atencion</ion-title>
+		 <ion-buttons end>
+	      <button ion-button (click)="back()" color="danger">Salir</button>
+    	</ion-buttons>
+	</ion-navbar>
 </ion-header>
 
 <ion-content padding>
-
+	<ion-slides #slides>
+		<ion-slide>
+			<p>¿CUÁNTAS MANZANAS HAY? ESCRIBE EL RESULTADO EN LA CASILLA DE ABAJO.</p>
+			<ion-item>
+			  <ion-label>Resultado:</ion-label>
+			  <ion-input></ion-input>
+			</ion-item>
+			<img width="100%" height="100%" src="/assets/img/games/lectoescritura/1.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>¿CUÁNTOS VASOS HAY? ESCRIBE EL RESULTADO EN LA CASILLA DE ABAJO.</p>
+			<ion-item>
+			  <ion-label>Resultado:</ion-label>
+			  <ion-input></ion-input>
+			</ion-item>
+			<img width="100%" height="100%" src="/assets/img/games/lectoescritura/2.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>¿CUÁNTAS CAMISETAS HAY? ESCRIBE EL RESULTADO A LA DERECHA.</p>
+			<ion-item>
+			  <ion-label>Resultado:</ion-label>
+			  <ion-input></ion-input>
+			</ion-item>
+			<img width="100%" height="100%" src="/assets/img/games/lectoescritura/3.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>¿CUÁNTOS LAZOS HAY? ESCRIBE EL RESULTADO A LA DERECHA.</p>
+			<ion-item>
+			  <ion-label>Resultado:</ion-label>
+			  <ion-input></ion-input>
+			</ion-item>
+			<img width="100%" height="100%" src="/assets/img/games/lectoescritura/4.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="terminar()" block>Terminar</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+	</ion-slides>
 </ion-content>

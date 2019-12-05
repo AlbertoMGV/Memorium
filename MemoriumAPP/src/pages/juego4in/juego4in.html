@@ -1,15 +1,55 @@
 <!--
-  Generated template for the Juego4inPage page.
+Generated template for the Juego1inPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>juego4in</ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<ion-title>Atencion</ion-title>
+		 <ion-buttons end>
+	      <button ion-button (click)="back()" color="danger">Salir</button>
+    	</ion-buttons>
+	</ion-navbar>
 </ion-header>
 
 <ion-content padding>
-
+	<ion-slides #slides>
+		<ion-slide>
+			<p>FÍJATE QUÉ OBJETOS HAY Y EN QUÉ LUGAR SE ENCUENTRAN. LUEGO TENDRÁS QUE RECORDARLOS.</p>
+			<img width="100%" height="100%" src="/assets/img/games/memoria/1.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>RECUERDA QUÉ OBJETOS HABÍA Y EN QUÉ LUGAR SE ENCONTRABAN. RELLENA LOS CUADROS CORRESPONDIENTES ESCRIBIENDO EL NOMBRE DE LOS OBJETOS.</p>
+			<img width="100%" height="100%" src="/assets/img/games/memoria/2.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>FÍJATE QUÉ OBJETOS HAY Y EN QUÉ LUGAR SE ENCUENTRAN. LUEGO TENDRÁS QUE RECORDARLOS.</p>
+			<img width="100%" height="100%" src="/assets/img/games/memoria/3.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="next()" block>Siguiente</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+		<ion-slide>
+			<p>RECUERDA QUÉ OBJETOS HABÍA Y EN QUÉ LUGAR SE ENCONTRABAN. RELLENA LOS CUADROS CORRESPONDIENTES ESCRIBIENDO EL NOMBRE DE LOS OBJETOS.</p>
+			<img width="100%" height="100%" src="/assets/img/games/memoria/4.png"/>
+			<ion-footer>
+				<ion-toolbar>
+					<button ion-button color="primary" (click) ="terminar()" block>Terminar</button>
+				</ion-toolbar>
+			</ion-footer>
+		</ion-slide>
+	</ion-slides>
 </ion-content>
