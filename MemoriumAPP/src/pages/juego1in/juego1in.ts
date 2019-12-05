@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController, ToastController } from 'ionic-angular';
 import { MainPage } from '../';
 
+import { ViewChild } from '@angular/core';
+import { Slides } from 'ionic-angular';
+
 
 /**
  * Generated class for the Juego1inPage page.
@@ -15,7 +18,10 @@ import { MainPage } from '../';
   selector: 'page-juego1in',
   templateUrl: 'juego1in.html',
 })
+
 export class Juego1inPage {
+
+  @ViewChild('slides') slides: Slides;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertController: AlertController, public toastCtrl: ToastController,) {
   }
@@ -32,6 +38,10 @@ export class Juego1inPage {
         position: 'top'
       });
       toast.present();
+  }
+
+  next() {
+    this.slides.slideNext();
   }
 
   async back() {
