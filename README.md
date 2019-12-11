@@ -1,6 +1,4 @@
-# Memorium 🧠
-
-[![License: Apache][license-shield]][license-url]
+# Memorium 📚
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
